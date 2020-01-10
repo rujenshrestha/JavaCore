@@ -1,6 +1,5 @@
 package com.javacore.collections.arraylistandvector;
 
-import java.io.*;
 import java.util.*;
 
 public class ArrayListandVectorExample {
@@ -33,7 +32,7 @@ public class ArrayListandVectorExample {
 
 		// traversing elements using Enumeration
 		System.out.println("\nVector elements are:");
-		Enumeration e = v.elements();
+		Enumeration<String> e = v.elements();
 		while (e.hasMoreElements())
 			System.out.println(e.nextElement());
 	}
